@@ -14,16 +14,23 @@ namespace ExerciciosProcessoSeletivo
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //DICA: USE UM LOOP DE REPETIÇÃO PARA MOSTRAR O NOME DE CADA FUNCIONARIO
             var ex1 = new Exercicio1();
-            var funcionarios = ex1.GetFuncionarios();
+            //dentro do metodo GetFuncionariosAtivos liste apenas os funcionarios ativos
+            var funcionarios = ex1.GetFuncionariosAtivos();
+            //DICA: USE UM LOOP DE REPETIÇÃO PARA MOSTRAR O NOME DE CADA FUNCIONARIO
+            //-----------------------------------------
 
-            //DICA: USE UM LOOP DE REPETIÇÃO PARA MOSTRAR OS CODIGOS ORDENADOS NA TELA
+
+            //ordene on codigos dentro do metodo GetCodigosOrdenados()
             var ex2 = new Exercicio2();
             var codigos = funcionarios.Select(x => x.codigo).ToList();
             var codigosOrdenados = ex2.GetCodigosOrdenados(codigos);
+            //DICA: USE UM LOOP DE REPETIÇÃO PARA MOSTRAR OS CODIGOS ORDENADOS NA TELA
+            //--------------------
 
+            //Complete a clausula do funcionario dentro no metodo GerarClausula()
             var ex3 = new Exercicio3();
+            //Depois de resolver o exercicio 3
             //Descomente a linha a baixo, passe o nome do funcionario como parametro e mostre a clausula na tela
             foreach(var funcionario in funcionarios)
             {

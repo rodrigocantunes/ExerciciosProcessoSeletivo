@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosProcessoSeletivo", "ExerciciosProcessoSeletivo\ExerciciosProcessoSeletivo.csproj", "{DDAC2D6C-92AB-4B4C-8079-652990421B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosProcessoSeletivo.Test", "ExerciciosProcessoSeletivo.Test\ExerciciosProcessoSeletivo.Test.csproj", "{A2560594-E3D2-4D3C-BB1E-280A80C20351}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DDAC2D6C-92AB-4B4C-8079-652990421B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAC2D6C-92AB-4B4C-8079-652990421B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAC2D6C-92AB-4B4C-8079-652990421B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2560594-E3D2-4D3C-BB1E-280A80C20351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2560594-E3D2-4D3C-BB1E-280A80C20351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2560594-E3D2-4D3C-BB1E-280A80C20351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2560594-E3D2-4D3C-BB1E-280A80C20351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

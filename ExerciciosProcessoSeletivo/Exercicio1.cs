@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ExerciciosProcessoSeletivo
 {
@@ -13,23 +10,23 @@ namespace ExerciciosProcessoSeletivo
         /// Retorne os functionarios ativos (em que a variavel excluido é falsa)
         /// </summary>
         /// <returns></returns>
-        internal List<(string funcionario, int codigo, bool excluido)> GetFuncionarios()
+        public List<(string funcionario, int codigo, bool excluido)> GetFuncionariosAtivos()
         {
             var funcionariosAtivos = new List<(string funcionario, int codigo, bool excluido)>();
 
             var funcionariosBancoDedados = new List<(string funcionario, int codigo, bool excluido)>
             {
-                ("Marcia", 1, false),
-                ("Pablo", 8, false),
+                ("Carolina", 1, false),
+                ("Dante", 8, false),
                 ("Paulo", 2, false),
-                ("Igor", 4, false),
-                ("Franklien", 7, true),
-                ("Pedro", 6, true),
-                ("Mad", 10, true),
-                ("Otto", 9, false),
+                ("Rodrigo", 4, false),
+                ("Jose", 7, true),
+                ("Clara", 6, true),
+                ("Marcia", 10, true),
+                ("Augusto", 9, false),
             };
 
-            //DICA USE A CLAUSULA WHERE(funcionario => funcionario)
+            //COLOQUE A SOLUÇÃO A PARTIR DA LINHA ABAIXO.
             funcionariosAtivos = funcionariosBancoDedados;
 
             return funcionariosAtivos;
